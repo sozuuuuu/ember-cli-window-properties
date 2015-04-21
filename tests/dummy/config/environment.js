@@ -3,6 +3,9 @@
 module.exports = function(environment) {
   var ENV = {
     modulePrefix: 'dummy',
+    windowProperties: {
+      smartphoneWidth: 500
+    },
     environment: environment,
     baseURL: '/',
     locationType: 'auto',
